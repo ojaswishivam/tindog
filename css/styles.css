@@ -46,8 +46,7 @@ h1 {
 
 /* Title image */
 
-.img-positioning
-{
+.img-positioning {
     position: relative;
 }
 
@@ -136,7 +135,45 @@ h2 {
     text-align: center;
 }
 
-.pricing-column
-{
+.pricing-column {
     padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+#cta{
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icons{
+    margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
